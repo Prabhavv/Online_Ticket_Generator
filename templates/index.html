@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+  	<meta name="author" content="Prabhav Varambally">
+    <title>Ticketing System</title>
+    <link rel="stylesheet" href="./static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="form-container">
+        <span class="form-heading">Enroll Now !</span>
+
+        <form action="/send" method="post">
+          <div class="input-group">
+              <i class="fa fa-user" aria-hidden="true"></i>
+              <input type="text" name="Name" placeholder="Name" required>
+              <span class="bar"></span>
+          </div>
+          <div class="input-group">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <input type="email" name="email" placeholder="Email" required>
+              <span class="bar"></span>
+          </div>
+          <div class="input-group">
+              <i class="fa fa-id-card-o" aria-hidden="true"></i>
+              <input type="text" name="regno" placeholder="Registration Number" required>
+              <span class="bar"></span>
+          </div>
+          <div class="input-group">
+              <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+              <input type="text" name="college" placeholder="College" required>
+              <span class="bar"></span>
+          </div>
+          <div class="input-group">
+              <i class="fa fa-building" aria-hidden="true"></i>
+              <input type="text" name="block" placeholder="Hostel Block" required>
+              <span class="bar"></span>
+          </div>
+          <div class="input-group">
+              <i class="fa fa-phone-square" aria-hidden="true"></i>
+              <input type="text" name="number" placeholder="Phone Number" required>
+              <span class="bar"></span>
+          </div>
+          <div class="input-group">
+            <button type="submit">Send Ticket</button>
+          </div>
+          <div class="switch-login">
+            <a>Will be sending a ticket.</a>
+          </div>
+        </form>
+
+
+      </div>
+    </div>
+
+  </body>
+</html>
